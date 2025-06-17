@@ -1,0 +1,12 @@
+h2 {
+  font-size: 35px;
+}
+
+.picture img {
+  border-radius: 10px;
+  width: 200px;
+}
+
+.container {
+  max-width: 800px;
+}
