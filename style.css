@@ -21,6 +21,9 @@
 .active {
   color: var(--first-color) !important;
 }
+.header {
+  background-color: #faf9f6;
+}
 h2 {
   font-size: 35px;
   font-family: var(--second-font);
@@ -50,4 +53,17 @@ p {
   margin: 10px;
   width: 200px;
   height: 180px;
+}
+.footer {
+  font-family: var(--third-font);
+  background-color: var(--third-color);
+  color: var(--first-color);
+}
+.footerMail {
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.headercontactMe {
+  font-size: 28px;
 }
