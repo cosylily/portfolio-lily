@@ -2,11 +2,44 @@
   --first-font: "Savate", sans-serif;
   --second-font: "Edu NSW ACT Hand Pre", cursive;
   --third-font: "Playfair Display", serif;
+  --first-color: #5f7470;
+  --second-color: #889696;
+  --third-color: #e0e2db;
+  --fourth-color: #d2d4c8;
+}
+.navbar {
+  background-color: var(--third-color);
+}
+.navbar-brand {
+  color: var(--first-color) !important;
+
+  font-family: var(--third-font);
+}
+.nav-link {
+  color: var(--second-color) !important;
+}
+.active {
+  color: var(--first-color) !important;
 }
 h2 {
   font-size: 35px;
+  font-family: var(--second-font);
+  color: var(--first-color) !important;
 }
 
+p {
+  font-family: var(--third-font);
+  color: var(--second-color);
+}
+.learnLink {
+  font-family: var(--first-font);
+  color: var(--third-color);
+  background-color: var(--first-color);
+}
+.learnLink:hover {
+  color: var(--first-color);
+  background-color: var(--third-color);
+}
 .picture img {
   border-radius: 10px;
   width: 200px;
