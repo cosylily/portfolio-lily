@@ -98,3 +98,16 @@ p {
 .linkedIn a:hover {
   color: var(--third-color);
 }
+
+.webImage {
+  border-radius: 10px;
+}
+
+.odd {
+  background-color: #faf9f6;
+  padding: 40px 0;
+}
+
+.webIntro p {
+  margin: 20px 0;
+}
