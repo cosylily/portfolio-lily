@@ -47,6 +47,9 @@ p {
   border-radius: 10px;
   width: 200px;
 }
+.imgLink:hover {
+  transform: scale(0.9);
+}
 
 .projectLinks img {
   border-radius: 10px;
