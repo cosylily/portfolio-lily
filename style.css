@@ -26,6 +26,10 @@
 }
 h2 {
   font-size: 35px;
+}
+h2,
+h1,
+h5 {
   font-family: var(--second-font);
   color: var(--first-color) !important;
 }
@@ -80,4 +84,17 @@ p {
 }
 .headercontactMe a:hover {
   color: var(--fourth-color);
+}
+
+.email a,
+.gitHub a,
+.linkedIn a {
+  font-family: var(--first-font);
+  text-decoration: none;
+  color: var(--second-color);
+}
+.email a:hover,
+.gitHub a:hover,
+.linkedIn a:hover {
+  color: var(--third-color);
 }
