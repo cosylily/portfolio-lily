@@ -29,7 +29,8 @@ h2 {
 }
 h2,
 h1,
-h5 {
+h5,
+h6 {
   font-family: var(--second-font);
   color: var(--first-color) !important;
 }
@@ -110,4 +111,12 @@ p {
 
 .webIntro p {
   margin: 20px 0;
+}
+
+.aboutHeader {
+  background-color: #faf9f6;
+}
+
+h6 {
+  margin: 10px 0;
 }
